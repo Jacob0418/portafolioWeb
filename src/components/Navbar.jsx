@@ -22,7 +22,7 @@ function NavBar() {
         <header>
             <nav>
                 <div className="bg-white w-full top-0 sticky left-0">
-                    <div className=" space-x-2 flex flex-row items-center justify-between px-6 py-4">
+                    <div className=" space-x-2 flex flex-row items-center justify-between px-6 py-2">
                     <p className="p-2 text-[#0E6BA8] text-4xl font-semibold">JC</p>
                     <ul className="text-[#0E6BA8] flex flex-row gap-8 p-2 left-0 z-auto uppercase font-medium">
                         {partsPort.map((link) => (
